@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Loops
+        </title>
+    </head>
+
+    <body>
+        <h2>
+            JavaScript for Loops
+        </h2>
+        <p id="demo"></p>
+        <script>
+            var fruits = ["Apple", "Mango", "Grapes", "Watermelon","Jack Fruit", "Banana"];
+            var text = "";
+            var i;
+            for (i = 0; i < fruits.length; i++) { //fruits.length=6 fruits[0] ="Apple"
+            text += fruits[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text
+        </script>
+    </body>
+</html>
